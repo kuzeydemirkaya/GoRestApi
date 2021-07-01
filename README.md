@@ -1,6 +1,11 @@
 # GoRestApi
-Rest Api compiled in golang with JWT token authentication
--
 Golang Rest Api Ticket system with Gorilla Mux router and JWT token authentication including cookies.
 -
-Api can be requested using Postman app
+Ticket system Rest Api consists of:
+
+- Login with JWT token Authentication
+- Login token saved as cookie
+- Create Ticket using POST Method
+- List Tickets using GET Method
+
+*Api can be requested using Postman app*
